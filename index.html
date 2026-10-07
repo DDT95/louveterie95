@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Louveterie 95 · Atlas territorial</title>
+<link rel="stylesheet" href="https://ddt95.github.io/atlas-shared/atlas-nav.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="hero">
+  <div class="eyebrow">Val-d’Oise · Suivi des opérations de louveterie</div>
+  <h1>Louveterie 95</h1>
+  <p>Bilan par saison cynégétique (1er juillet – 30 juin), espèce et territoire. Chaque chiffre reste traçable jusqu’au dossier et à la ligne déclarée.</p>
+  <div id="mode" class="badge">Chargement…</div>
+</header>
+<main>
+  <div id="filters"></div>
+  <div class="tabs" role="tablist">
+    <button role="tab" id="tab-bilan" aria-selected="true" data-tab="bilan">Bilan</button>
+    <button role="tab" id="tab-cartes" aria-selected="false" data-tab="cartes">Cartes</button>
+    <button role="tab" id="tab-controles" aria-selected="false" data-tab="controles">Contrôles</button>
+  </div>
+
+  <section id="bilan">
+    <div class="cards" id="cards"></div>
+    <div id="warning" class="warning"></div>
+    <div class="panel"><h2>Prélèvements par lieutenant</h2><div id="bars"></div></div>
+    <div class="panel">
+      <h2>Bilans du territoire</h2>
+      <label>Regrouper par
+        <select id="dimension">
+          <option value="commune">Commune</option>
+          <option value="circonscription">Circonscription</option>
+          <option value="lieutenant">Lieutenant</option>
+        </select>
+      </label>
+      <p class="note">Dossiers et lieutenants sont comptés distinctement dans chaque groupe. Une ligne déclarée n’est pas nécessairement une sortie distincte.</p>
+      <div class="scroll"><table><thead><tr>
+        <th>Territoire / personne</th><th>Lignes</th><th>Dossiers</th><th>Lieutenants</th><th>Vus déclarés*</th><th>Prélevés</th><th>Balles</th><th>Prélevés / 100 balles</th>
+      </tr></thead><tbody id="table"></tbody></table></div>
+    </div>
+  </section>
+
+  <section id="cartes" hidden>
+    <div class="panel">
+      <div class="maptools">
+        <label>Indicateur
+          <select id="metric">
+            <option value="preleves">Prélèvements</option>
+            <option value="balles">Balles tirées</option>
+            <option value="vus">Vus déclarés</option>
+          </select>
+        </label>
+        <span class="note">Année, espèce et semestre suivent les filtres ci-dessus.</span>
+      </div>
+      <div id="map"></div>
+    </div>
+  </section>
+
+  <section id="controles" hidden>
+    <div class="panel"><h2>Contrôles de qualité</h2>
+      <p class="note">Une commune inconnue garde ses chiffres dans les bilans mais ne peut pas être cartographiée. Corriger à la source ou via un alias vérifié (<code>commune_aliases</code>).</p>
+      <div class="scroll"><table><thead><tr><th>Dossier</th><th>Type</th><th>Détail</th><th>Ligne</th></tr></thead><tbody id="issues"></tbody></table></div>
+    </div>
+    <div class="panel"><h2>Dossiers exclus des calculs</h2>
+      <div class="scroll"><table><thead><tr><th>Dossier</th><th>État</th></tr></thead><tbody id="excluded"></tbody></table></div>
+    </div>
+  </section>
+
+  <footer>
+    * Somme des déclarations des blocs de prélèvements et d’observations : ce n’est ni un nombre d’animaux uniques ni une estimation de population. Le ratio prélèvements/balles décrit les déclarations, il ne suffit pas à juger la performance d’une personne. Un champ numérique vide reste vide (jamais zéro) : les sommes concernées sont partielles et le ratio n’est pas calculé.
+    <br><span id="stamp"></span>
+  </footer>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="assets/app.js"></script>
+<script src="https://ddt95.github.io/atlas-shared/atlas-nav.js" data-atlas-current="louveterie95"></script>
+</body>
+</html>

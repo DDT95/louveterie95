@@ -1,0 +1,154 @@
+{
+  "demarche": 101278,
+  "confirmed": false,
+  "year_start_month": 7,
+  "states": [
+    "en_construction",
+    "en_instruction",
+    "accepte"
+  ],
+  "root": {
+    "date": {
+      "ids": [],
+      "labels": [
+        "Date de la sortie"
+      ]
+    },
+    "lieutenant": {
+      "ids": [],
+      "labels": [
+        "Lieutenant de louveterie intervenant"
+      ]
+    },
+    "circonscription": {
+      "ids": [],
+      "labels": [
+        "Circonscription concernée par l'arrêté"
+      ]
+    },
+    "arrete": {
+      "ids": [],
+      "labels": [
+        "Numéro de l'arrêté préfectoral"
+      ]
+    },
+    "espece_prelevee": {
+      "ids": [],
+      "labels": [
+        "Espèce prélevée"
+      ]
+    },
+    "espece_observee": {
+      "ids": [],
+      "labels": [
+        "Espèce"
+      ]
+    }
+  },
+  "groups": [
+    {
+      "name": "prelevements",
+      "selector": {
+        "ids": [],
+        "labels": [
+          "Prélèvements effectués"
+        ]
+      },
+      "kind": "prelevement",
+      "species_fallback": "espece_prelevee",
+      "fields": {
+        "commune": {
+          "ids": [],
+          "labels": [
+            "Commune"
+          ]
+        },
+        "vus": {
+          "ids": [],
+          "labels": [
+            "Nombre d'individus vus"
+          ]
+        },
+        "preleves": {
+          "ids": [],
+          "labels": [
+            "Nombre d'individus prélevés"
+          ]
+        },
+        "balles": {
+          "ids": [],
+          "labels": [
+            "Nombre de balles tirées"
+          ]
+        }
+      }
+    },
+    {
+      "name": "observations_espece",
+      "selector": {
+        "ids": [
+          "DEMO_OBS1"
+        ],
+        "labels": []
+      },
+      "kind": "observation",
+      "species_fallback": "espece_observee",
+      "fields": {
+        "commune": {
+          "ids": [],
+          "labels": [
+            "Commune"
+          ]
+        },
+        "vus": {
+          "ids": [],
+          "labels": [
+            "Nombre d'individus vus"
+          ]
+        },
+        "espece": {
+          "ids": [],
+          "labels": [
+            "Espèce"
+          ]
+        }
+      }
+    },
+    {
+      "name": "observations_sans_espece",
+      "selector": {
+        "ids": [
+          "DEMO_OBS2"
+        ],
+        "labels": []
+      },
+      "kind": "observation",
+      "species_fallback": "espece_observee",
+      "fields": {
+        "commune": {
+          "ids": [],
+          "labels": [
+            "Commune"
+          ]
+        },
+        "vus": {
+          "ids": [],
+          "labels": [
+            "Nombre d'individus vus"
+          ]
+        }
+      }
+    }
+  ],
+  "species_aliases": {
+    "sanglier": "Sanglier",
+    "sangliers": "Sanglier",
+    "renard": "Renard",
+    "renards": "Renard",
+    "chevreuil": "Chevreuil",
+    "chevreuils": "Chevreuil",
+    "blaireau": "Blaireau",
+    "blaireaux": "Blaireau"
+  },
+  "commune_aliases": {}
+}

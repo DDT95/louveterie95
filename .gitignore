@@ -1,0 +1,9 @@
+# Données réelles : nominatives (lieutenants), ne jamais versionner
+data/operations.json
+data/*.tmp
+resultats*/
+source_dn.json
+engine/communes95.csv.bak
+mapping_valide.json
+.env
+__pycache__/

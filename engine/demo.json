@@ -1,0 +1,1604 @@
+{
+  "number": 101278,
+  "title": "DEMONSTRATION FICTIVE",
+  "fetched_at": "2026-10-07T08:00:00Z",
+  "dossiers": [
+    {
+      "id": "DEMO_DOSSIER_0",
+      "number": 900000,
+      "state": "accepte",
+      "archived": true,
+      "dateDerniereModification": "2026-10-07T08:00:00Z",
+      "champs": [
+        {
+          "id": "CHAMP_Date de la sortie",
+          "champDescriptorId": "Date de la sortie",
+          "label": "Date de la sortie",
+          "__typename": "TextChamp",
+          "stringValue": "2025-07-01"
+        },
+        {
+          "id": "CHAMP_Lieutenant de louveterie intervenant",
+          "champDescriptorId": "Lieutenant de louveterie intervenant",
+          "label": "Lieutenant de louveterie intervenant",
+          "__typename": "TextChamp",
+          "stringValue": "Lieutenant Alpha"
+        },
+        {
+          "id": "CHAMP_Circonscription concernée par l'arrêté",
+          "champDescriptorId": "Circonscription concernée par l'arrêté",
+          "label": "Circonscription concernée par l'arrêté",
+          "__typename": "TextChamp",
+          "stringValue": "1e circonscription"
+        },
+        {
+          "id": "CHAMP_Numéro de l'arrêté préfectoral",
+          "champDescriptorId": "Numéro de l'arrêté préfectoral",
+          "label": "Numéro de l'arrêté préfectoral",
+          "__typename": "TextChamp",
+          "stringValue": "DEMO-2025-0"
+        },
+        {
+          "id": "CHAMP_Espèce prélevée",
+          "champDescriptorId": "Espèce prélevée",
+          "label": "Espèce prélevée",
+          "__typename": "TextChamp",
+          "stringValue": "Sangliers"
+        },
+        {
+          "id": "CHAMP_Espèce",
+          "champDescriptorId": "Espèce",
+          "label": "Espèce",
+          "__typename": "TextChamp",
+          "stringValue": "Renard"
+        },
+        {
+          "id": "DEMO_PREL",
+          "champDescriptorId": "DEMO_PREL",
+          "label": "Prélèvements effectués",
+          "__typename": "RepetitionChamp",
+          "stringValue": null,
+          "rows": [
+            {
+              "id": "ROW_0",
+              "champs": [
+                {
+                  "id": "CHAMP_Commune",
+                  "champDescriptorId": "Commune",
+                  "label": "Commune",
+                  "__typename": "TextChamp",
+                  "stringValue": "VEMARS"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus vus",
+                  "champDescriptorId": "Nombre d'individus vus",
+                  "label": "Nombre d'individus vus",
+                  "__typename": "TextChamp",
+                  "stringValue": "12"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus prélevés",
+                  "champDescriptorId": "Nombre d'individus prélevés",
+                  "label": "Nombre d'individus prélevés",
+                  "__typename": "TextChamp",
+                  "stringValue": "2"
+                },
+                {
+                  "id": "CHAMP_Nombre de balles tirées",
+                  "champDescriptorId": "Nombre de balles tirées",
+                  "label": "Nombre de balles tirées",
+                  "__typename": "TextChamp",
+                  "stringValue": "4"
+                }
+              ]
+            },
+            {
+              "id": "ROW_1",
+              "champs": [
+                {
+                  "id": "CHAMP_Commune",
+                  "champDescriptorId": "Commune",
+                  "label": "Commune",
+                  "__typename": "TextChamp",
+                  "stringValue": "VEMARS"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus vus",
+                  "champDescriptorId": "Nombre d'individus vus",
+                  "label": "Nombre d'individus vus",
+                  "__typename": "TextChamp",
+                  "stringValue": "12"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus prélevés",
+                  "champDescriptorId": "Nombre d'individus prélevés",
+                  "label": "Nombre d'individus prélevés",
+                  "__typename": "TextChamp",
+                  "stringValue": "2"
+                },
+                {
+                  "id": "CHAMP_Nombre de balles tirées",
+                  "champDescriptorId": "Nombre de balles tirées",
+                  "label": "Nombre de balles tirées",
+                  "__typename": "TextChamp",
+                  "stringValue": "4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "DEMO_OBS1",
+          "champDescriptorId": "DEMO_OBS1",
+          "label": "Observations",
+          "__typename": "RepetitionChamp",
+          "stringValue": null,
+          "rows": [
+            {
+              "id": "ROW_0",
+              "champs": [
+                {
+                  "id": "CHAMP_Commune",
+                  "champDescriptorId": "Commune",
+                  "label": "Commune",
+                  "__typename": "TextChamp",
+                  "stringValue": "VEMARS"
+                },
+                {
+                  "id": "CHAMP_Espèce",
+                  "champDescriptorId": "Espèce",
+                  "label": "Espèce",
+                  "__typename": "TextChamp",
+                  "stringValue": "Renard"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus vus",
+                  "champDescriptorId": "Nombre d'individus vus",
+                  "label": "Nombre d'individus vus",
+                  "__typename": "TextChamp",
+                  "stringValue": "3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DEMO_DOSSIER_1",
+      "number": 900001,
+      "state": "accepte",
+      "archived": false,
+      "dateDerniereModification": "2026-10-07T08:00:00Z",
+      "champs": [
+        {
+          "id": "CHAMP_Date de la sortie",
+          "champDescriptorId": "Date de la sortie",
+          "label": "Date de la sortie",
+          "__typename": "TextChamp",
+          "stringValue": "2025-08-02"
+        },
+        {
+          "id": "CHAMP_Lieutenant de louveterie intervenant",
+          "champDescriptorId": "Lieutenant de louveterie intervenant",
+          "label": "Lieutenant de louveterie intervenant",
+          "__typename": "TextChamp",
+          "stringValue": "Lieutenant Bravo"
+        },
+        {
+          "id": "CHAMP_Circonscription concernée par l'arrêté",
+          "champDescriptorId": "Circonscription concernée par l'arrêté",
+          "label": "Circonscription concernée par l'arrêté",
+          "__typename": "TextChamp",
+          "stringValue": "2e circonscription"
+        },
+        {
+          "id": "CHAMP_Numéro de l'arrêté préfectoral",
+          "champDescriptorId": "Numéro de l'arrêté préfectoral",
+          "label": "Numéro de l'arrêté préfectoral",
+          "__typename": "TextChamp",
+          "stringValue": "DEMO-2025-1"
+        },
+        {
+          "id": "CHAMP_Espèce prélevée",
+          "champDescriptorId": "Espèce prélevée",
+          "label": "Espèce prélevée",
+          "__typename": "TextChamp",
+          "stringValue": "Sangliers"
+        },
+        {
+          "id": "CHAMP_Espèce",
+          "champDescriptorId": "Espèce",
+          "label": "Espèce",
+          "__typename": "TextChamp",
+          "stringValue": "Renard"
+        },
+        {
+          "id": "DEMO_PREL",
+          "champDescriptorId": "DEMO_PREL",
+          "label": "Prélèvements effectués",
+          "__typename": "RepetitionChamp",
+          "stringValue": null,
+          "rows": [
+            {
+              "id": "ROW_0",
+              "champs": [
+                {
+                  "id": "CHAMP_Commune",
+                  "champDescriptorId": "Commune",
+                  "label": "Commune",
+                  "__typename": "TextChamp",
+                  "stringValue": "FREPILLON"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus vus",
+                  "champDescriptorId": "Nombre d'individus vus",
+                  "label": "Nombre d'individus vus",
+                  "__typename": "TextChamp",
+                  "stringValue": "13"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus prélevés",
+                  "champDescriptorId": "Nombre d'individus prélevés",
+                  "label": "Nombre d'individus prélevés",
+                  "__typename": "TextChamp",
+                  "stringValue": "3"
+                },
+                {
+                  "id": "CHAMP_Nombre de balles tirées",
+                  "champDescriptorId": "Nombre de balles tirées",
+                  "label": "Nombre de balles tirées",
+                  "__typename": "TextChamp",
+                  "stringValue": "5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "DEMO_OBS1",
+          "champDescriptorId": "DEMO_OBS1",
+          "label": "Observations",
+          "__typename": "RepetitionChamp",
+          "stringValue": null,
+          "rows": [
+            {
+              "id": "ROW_0",
+              "champs": [
+                {
+                  "id": "CHAMP_Commune",
+                  "champDescriptorId": "Commune",
+                  "label": "Commune",
+                  "__typename": "TextChamp",
+                  "stringValue": "FREPILLON"
+                },
+                {
+                  "id": "CHAMP_Espèce",
+                  "champDescriptorId": "Espèce",
+                  "label": "Espèce",
+                  "__typename": "TextChamp",
+                  "stringValue": "Renard"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus vus",
+                  "champDescriptorId": "Nombre d'individus vus",
+                  "label": "Nombre d'individus vus",
+                  "__typename": "TextChamp",
+                  "stringValue": "4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DEMO_DOSSIER_2",
+      "number": 900002,
+      "state": "accepte",
+      "archived": true,
+      "dateDerniereModification": "2026-10-07T08:00:00Z",
+      "champs": [
+        {
+          "id": "CHAMP_Date de la sortie",
+          "champDescriptorId": "Date de la sortie",
+          "label": "Date de la sortie",
+          "__typename": "TextChamp",
+          "stringValue": "2025-09-03"
+        },
+        {
+          "id": "CHAMP_Lieutenant de louveterie intervenant",
+          "champDescriptorId": "Lieutenant de louveterie intervenant",
+          "label": "Lieutenant de louveterie intervenant",
+          "__typename": "TextChamp",
+          "stringValue": "Lieutenant Charlie"
+        },
+        {
+          "id": "CHAMP_Circonscription concernée par l'arrêté",
+          "champDescriptorId": "Circonscription concernée par l'arrêté",
+          "label": "Circonscription concernée par l'arrêté",
+          "__typename": "TextChamp",
+          "stringValue": "3e circonscription"
+        },
+        {
+          "id": "CHAMP_Numéro de l'arrêté préfectoral",
+          "champDescriptorId": "Numéro de l'arrêté préfectoral",
+          "label": "Numéro de l'arrêté préfectoral",
+          "__typename": "TextChamp",
+          "stringValue": "DEMO-2025-2"
+        },
+        {
+          "id": "CHAMP_Espèce prélevée",
+          "champDescriptorId": "Espèce prélevée",
+          "label": "Espèce prélevée",
+          "__typename": "TextChamp",
+          "stringValue": "Sangliers"
+        },
+        {
+          "id": "CHAMP_Espèce",
+          "champDescriptorId": "Espèce",
+          "label": "Espèce",
+          "__typename": "TextChamp",
+          "stringValue": "Renard"
+        },
+        {
+          "id": "DEMO_PREL",
+          "champDescriptorId": "DEMO_PREL",
+          "label": "Prélèvements effectués",
+          "__typename": "RepetitionChamp",
+          "stringValue": null,
+          "rows": [
+            {
+              "id": "ROW_0",
+              "champs": [
+                {
+                  "id": "CHAMP_Commune",
+                  "champDescriptorId": "Commune",
+                  "label": "Commune",
+                  "__typename": "TextChamp",
+                  "stringValue": "FREMECOURT"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus vus",
+                  "champDescriptorId": "Nombre d'individus vus",
+                  "label": "Nombre d'individus vus",
+                  "__typename": "TextChamp",
+                  "stringValue": "14"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus prélevés",
+                  "champDescriptorId": "Nombre d'individus prélevés",
+                  "label": "Nombre d'individus prélevés",
+                  "__typename": "TextChamp",
+                  "stringValue": "4"
+                },
+                {
+                  "id": "CHAMP_Nombre de balles tirées",
+                  "champDescriptorId": "Nombre de balles tirées",
+                  "label": "Nombre de balles tirées",
+                  "__typename": "TextChamp",
+                  "stringValue": "6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "DEMO_OBS1",
+          "champDescriptorId": "DEMO_OBS1",
+          "label": "Observations",
+          "__typename": "RepetitionChamp",
+          "stringValue": null,
+          "rows": [
+            {
+              "id": "ROW_0",
+              "champs": [
+                {
+                  "id": "CHAMP_Commune",
+                  "champDescriptorId": "Commune",
+                  "label": "Commune",
+                  "__typename": "TextChamp",
+                  "stringValue": "FREMECOURT"
+                },
+                {
+                  "id": "CHAMP_Espèce",
+                  "champDescriptorId": "Espèce",
+                  "label": "Espèce",
+                  "__typename": "TextChamp",
+                  "stringValue": "Renard"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus vus",
+                  "champDescriptorId": "Nombre d'individus vus",
+                  "label": "Nombre d'individus vus",
+                  "__typename": "TextChamp",
+                  "stringValue": "5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DEMO_DOSSIER_3",
+      "number": 900003,
+      "state": "accepte",
+      "archived": false,
+      "dateDerniereModification": "2026-10-07T08:00:00Z",
+      "champs": [
+        {
+          "id": "CHAMP_Date de la sortie",
+          "champDescriptorId": "Date de la sortie",
+          "label": "Date de la sortie",
+          "__typename": "TextChamp",
+          "stringValue": "2025-10-04"
+        },
+        {
+          "id": "CHAMP_Lieutenant de louveterie intervenant",
+          "champDescriptorId": "Lieutenant de louveterie intervenant",
+          "label": "Lieutenant de louveterie intervenant",
+          "__typename": "TextChamp",
+          "stringValue": "Lieutenant Alpha"
+        },
+        {
+          "id": "CHAMP_Circonscription concernée par l'arrêté",
+          "champDescriptorId": "Circonscription concernée par l'arrêté",
+          "label": "Circonscription concernée par l'arrêté",
+          "__typename": "TextChamp",
+          "stringValue": "1e circonscription"
+        },
+        {
+          "id": "CHAMP_Numéro de l'arrêté préfectoral",
+          "champDescriptorId": "Numéro de l'arrêté préfectoral",
+          "label": "Numéro de l'arrêté préfectoral",
+          "__typename": "TextChamp",
+          "stringValue": "DEMO-2025-3"
+        },
+        {
+          "id": "CHAMP_Espèce prélevée",
+          "champDescriptorId": "Espèce prélevée",
+          "label": "Espèce prélevée",
+          "__typename": "TextChamp",
+          "stringValue": "Sangliers"
+        },
+        {
+          "id": "CHAMP_Espèce",
+          "champDescriptorId": "Espèce",
+          "label": "Espèce",
+          "__typename": "TextChamp",
+          "stringValue": "Renard"
+        },
+        {
+          "id": "DEMO_PREL",
+          "champDescriptorId": "DEMO_PREL",
+          "label": "Prélèvements effectués",
+          "__typename": "RepetitionChamp",
+          "stringValue": null,
+          "rows": [
+            {
+              "id": "ROW_0",
+              "champs": [
+                {
+                  "id": "CHAMP_Commune",
+                  "champDescriptorId": "Commune",
+                  "label": "Commune",
+                  "__typename": "TextChamp",
+                  "stringValue": "VEMARS"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus vus",
+                  "champDescriptorId": "Nombre d'individus vus",
+                  "label": "Nombre d'individus vus",
+                  "__typename": "TextChamp",
+                  "stringValue": "15"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus prélevés",
+                  "champDescriptorId": "Nombre d'individus prélevés",
+                  "label": "Nombre d'individus prélevés",
+                  "__typename": "TextChamp",
+                  "stringValue": "5"
+                },
+                {
+                  "id": "CHAMP_Nombre de balles tirées",
+                  "champDescriptorId": "Nombre de balles tirées",
+                  "label": "Nombre de balles tirées",
+                  "__typename": "TextChamp",
+                  "stringValue": "7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "DEMO_OBS1",
+          "champDescriptorId": "DEMO_OBS1",
+          "label": "Observations",
+          "__typename": "RepetitionChamp",
+          "stringValue": null,
+          "rows": [
+            {
+              "id": "ROW_0",
+              "champs": [
+                {
+                  "id": "CHAMP_Commune",
+                  "champDescriptorId": "Commune",
+                  "label": "Commune",
+                  "__typename": "TextChamp",
+                  "stringValue": "VEMARS"
+                },
+                {
+                  "id": "CHAMP_Espèce",
+                  "champDescriptorId": "Espèce",
+                  "label": "Espèce",
+                  "__typename": "TextChamp",
+                  "stringValue": "Renard"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus vus",
+                  "champDescriptorId": "Nombre d'individus vus",
+                  "label": "Nombre d'individus vus",
+                  "__typename": "TextChamp",
+                  "stringValue": "6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DEMO_DOSSIER_4",
+      "number": 900004,
+      "state": "accepte",
+      "archived": true,
+      "dateDerniereModification": "2026-10-07T08:00:00Z",
+      "champs": [
+        {
+          "id": "CHAMP_Date de la sortie",
+          "champDescriptorId": "Date de la sortie",
+          "label": "Date de la sortie",
+          "__typename": "TextChamp",
+          "stringValue": "2025-11-05"
+        },
+        {
+          "id": "CHAMP_Lieutenant de louveterie intervenant",
+          "champDescriptorId": "Lieutenant de louveterie intervenant",
+          "label": "Lieutenant de louveterie intervenant",
+          "__typename": "TextChamp",
+          "stringValue": "Lieutenant Bravo"
+        },
+        {
+          "id": "CHAMP_Circonscription concernée par l'arrêté",
+          "champDescriptorId": "Circonscription concernée par l'arrêté",
+          "label": "Circonscription concernée par l'arrêté",
+          "__typename": "TextChamp",
+          "stringValue": "2e circonscription"
+        },
+        {
+          "id": "CHAMP_Numéro de l'arrêté préfectoral",
+          "champDescriptorId": "Numéro de l'arrêté préfectoral",
+          "label": "Numéro de l'arrêté préfectoral",
+          "__typename": "TextChamp",
+          "stringValue": "DEMO-2025-4"
+        },
+        {
+          "id": "CHAMP_Espèce prélevée",
+          "champDescriptorId": "Espèce prélevée",
+          "label": "Espèce prélevée",
+          "__typename": "TextChamp",
+          "stringValue": "Sangliers"
+        },
+        {
+          "id": "CHAMP_Espèce",
+          "champDescriptorId": "Espèce",
+          "label": "Espèce",
+          "__typename": "TextChamp",
+          "stringValue": "Renard"
+        },
+        {
+          "id": "DEMO_PREL",
+          "champDescriptorId": "DEMO_PREL",
+          "label": "Prélèvements effectués",
+          "__typename": "RepetitionChamp",
+          "stringValue": null,
+          "rows": [
+            {
+              "id": "ROW_0",
+              "champs": [
+                {
+                  "id": "CHAMP_Commune",
+                  "champDescriptorId": "Commune",
+                  "label": "Commune",
+                  "__typename": "TextChamp",
+                  "stringValue": "FREPILLON"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus vus",
+                  "champDescriptorId": "Nombre d'individus vus",
+                  "label": "Nombre d'individus vus",
+                  "__typename": "TextChamp",
+                  "stringValue": "16"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus prélevés",
+                  "champDescriptorId": "Nombre d'individus prélevés",
+                  "label": "Nombre d'individus prélevés",
+                  "__typename": "TextChamp",
+                  "stringValue": "6"
+                },
+                {
+                  "id": "CHAMP_Nombre de balles tirées",
+                  "champDescriptorId": "Nombre de balles tirées",
+                  "label": "Nombre de balles tirées",
+                  "__typename": "TextChamp",
+                  "stringValue": "8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "DEMO_OBS1",
+          "champDescriptorId": "DEMO_OBS1",
+          "label": "Observations",
+          "__typename": "RepetitionChamp",
+          "stringValue": null,
+          "rows": [
+            {
+              "id": "ROW_0",
+              "champs": [
+                {
+                  "id": "CHAMP_Commune",
+                  "champDescriptorId": "Commune",
+                  "label": "Commune",
+                  "__typename": "TextChamp",
+                  "stringValue": "FREPILLON"
+                },
+                {
+                  "id": "CHAMP_Espèce",
+                  "champDescriptorId": "Espèce",
+                  "label": "Espèce",
+                  "__typename": "TextChamp",
+                  "stringValue": "Renard"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus vus",
+                  "champDescriptorId": "Nombre d'individus vus",
+                  "label": "Nombre d'individus vus",
+                  "__typename": "TextChamp",
+                  "stringValue": "3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DEMO_DOSSIER_5",
+      "number": 900005,
+      "state": "accepte",
+      "archived": false,
+      "dateDerniereModification": "2026-10-07T08:00:00Z",
+      "champs": [
+        {
+          "id": "CHAMP_Date de la sortie",
+          "champDescriptorId": "Date de la sortie",
+          "label": "Date de la sortie",
+          "__typename": "TextChamp",
+          "stringValue": "2025-12-06"
+        },
+        {
+          "id": "CHAMP_Lieutenant de louveterie intervenant",
+          "champDescriptorId": "Lieutenant de louveterie intervenant",
+          "label": "Lieutenant de louveterie intervenant",
+          "__typename": "TextChamp",
+          "stringValue": "Lieutenant Charlie"
+        },
+        {
+          "id": "CHAMP_Circonscription concernée par l'arrêté",
+          "champDescriptorId": "Circonscription concernée par l'arrêté",
+          "label": "Circonscription concernée par l'arrêté",
+          "__typename": "TextChamp",
+          "stringValue": "3e circonscription"
+        },
+        {
+          "id": "CHAMP_Numéro de l'arrêté préfectoral",
+          "champDescriptorId": "Numéro de l'arrêté préfectoral",
+          "label": "Numéro de l'arrêté préfectoral",
+          "__typename": "TextChamp",
+          "stringValue": "DEMO-2025-5"
+        },
+        {
+          "id": "CHAMP_Espèce prélevée",
+          "champDescriptorId": "Espèce prélevée",
+          "label": "Espèce prélevée",
+          "__typename": "TextChamp",
+          "stringValue": "Sangliers"
+        },
+        {
+          "id": "CHAMP_Espèce",
+          "champDescriptorId": "Espèce",
+          "label": "Espèce",
+          "__typename": "TextChamp",
+          "stringValue": "Renard"
+        },
+        {
+          "id": "DEMO_PREL",
+          "champDescriptorId": "DEMO_PREL",
+          "label": "Prélèvements effectués",
+          "__typename": "RepetitionChamp",
+          "stringValue": null,
+          "rows": [
+            {
+              "id": "ROW_0",
+              "champs": [
+                {
+                  "id": "CHAMP_Commune",
+                  "champDescriptorId": "Commune",
+                  "label": "Commune",
+                  "__typename": "TextChamp",
+                  "stringValue": "FREMECOURT"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus vus",
+                  "champDescriptorId": "Nombre d'individus vus",
+                  "label": "Nombre d'individus vus",
+                  "__typename": "TextChamp",
+                  "stringValue": "17"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus prélevés",
+                  "champDescriptorId": "Nombre d'individus prélevés",
+                  "label": "Nombre d'individus prélevés",
+                  "__typename": "TextChamp",
+                  "stringValue": "2"
+                },
+                {
+                  "id": "CHAMP_Nombre de balles tirées",
+                  "champDescriptorId": "Nombre de balles tirées",
+                  "label": "Nombre de balles tirées",
+                  "__typename": "TextChamp",
+                  "stringValue": "9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "DEMO_OBS1",
+          "champDescriptorId": "DEMO_OBS1",
+          "label": "Observations",
+          "__typename": "RepetitionChamp",
+          "stringValue": null,
+          "rows": [
+            {
+              "id": "ROW_0",
+              "champs": [
+                {
+                  "id": "CHAMP_Commune",
+                  "champDescriptorId": "Commune",
+                  "label": "Commune",
+                  "__typename": "TextChamp",
+                  "stringValue": "FREMECOURT"
+                },
+                {
+                  "id": "CHAMP_Espèce",
+                  "champDescriptorId": "Espèce",
+                  "label": "Espèce",
+                  "__typename": "TextChamp",
+                  "stringValue": "Renard"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus vus",
+                  "champDescriptorId": "Nombre d'individus vus",
+                  "label": "Nombre d'individus vus",
+                  "__typename": "TextChamp",
+                  "stringValue": "4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DEMO_DOSSIER_6",
+      "number": 900006,
+      "state": "accepte",
+      "archived": true,
+      "dateDerniereModification": "2026-10-07T08:00:00Z",
+      "champs": [
+        {
+          "id": "CHAMP_Date de la sortie",
+          "champDescriptorId": "Date de la sortie",
+          "label": "Date de la sortie",
+          "__typename": "TextChamp",
+          "stringValue": "2026-01-07"
+        },
+        {
+          "id": "CHAMP_Lieutenant de louveterie intervenant",
+          "champDescriptorId": "Lieutenant de louveterie intervenant",
+          "label": "Lieutenant de louveterie intervenant",
+          "__typename": "TextChamp",
+          "stringValue": "Lieutenant Alpha"
+        },
+        {
+          "id": "CHAMP_Circonscription concernée par l'arrêté",
+          "champDescriptorId": "Circonscription concernée par l'arrêté",
+          "label": "Circonscription concernée par l'arrêté",
+          "__typename": "TextChamp",
+          "stringValue": "1e circonscription"
+        },
+        {
+          "id": "CHAMP_Numéro de l'arrêté préfectoral",
+          "champDescriptorId": "Numéro de l'arrêté préfectoral",
+          "label": "Numéro de l'arrêté préfectoral",
+          "__typename": "TextChamp",
+          "stringValue": "DEMO-2025-6"
+        },
+        {
+          "id": "CHAMP_Espèce prélevée",
+          "champDescriptorId": "Espèce prélevée",
+          "label": "Espèce prélevée",
+          "__typename": "TextChamp",
+          "stringValue": "Sangliers"
+        },
+        {
+          "id": "CHAMP_Espèce",
+          "champDescriptorId": "Espèce",
+          "label": "Espèce",
+          "__typename": "TextChamp",
+          "stringValue": "Renard"
+        },
+        {
+          "id": "DEMO_PREL",
+          "champDescriptorId": "DEMO_PREL",
+          "label": "Prélèvements effectués",
+          "__typename": "RepetitionChamp",
+          "stringValue": null,
+          "rows": [
+            {
+              "id": "ROW_0",
+              "champs": [
+                {
+                  "id": "CHAMP_Commune",
+                  "champDescriptorId": "Commune",
+                  "label": "Commune",
+                  "__typename": "TextChamp",
+                  "stringValue": "VEMARS"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus vus",
+                  "champDescriptorId": "Nombre d'individus vus",
+                  "label": "Nombre d'individus vus",
+                  "__typename": "TextChamp",
+                  "stringValue": "18"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus prélevés",
+                  "champDescriptorId": "Nombre d'individus prélevés",
+                  "label": "Nombre d'individus prélevés",
+                  "__typename": "TextChamp",
+                  "stringValue": "3"
+                },
+                {
+                  "id": "CHAMP_Nombre de balles tirées",
+                  "champDescriptorId": "Nombre de balles tirées",
+                  "label": "Nombre de balles tirées",
+                  "__typename": "TextChamp",
+                  "stringValue": "10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "DEMO_OBS1",
+          "champDescriptorId": "DEMO_OBS1",
+          "label": "Observations",
+          "__typename": "RepetitionChamp",
+          "stringValue": null,
+          "rows": [
+            {
+              "id": "ROW_0",
+              "champs": [
+                {
+                  "id": "CHAMP_Commune",
+                  "champDescriptorId": "Commune",
+                  "label": "Commune",
+                  "__typename": "TextChamp",
+                  "stringValue": "VEMARS"
+                },
+                {
+                  "id": "CHAMP_Espèce",
+                  "champDescriptorId": "Espèce",
+                  "label": "Espèce",
+                  "__typename": "TextChamp",
+                  "stringValue": "Renard"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus vus",
+                  "champDescriptorId": "Nombre d'individus vus",
+                  "label": "Nombre d'individus vus",
+                  "__typename": "TextChamp",
+                  "stringValue": "5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DEMO_DOSSIER_7",
+      "number": 900007,
+      "state": "accepte",
+      "archived": false,
+      "dateDerniereModification": "2026-10-07T08:00:00Z",
+      "champs": [
+        {
+          "id": "CHAMP_Date de la sortie",
+          "champDescriptorId": "Date de la sortie",
+          "label": "Date de la sortie",
+          "__typename": "TextChamp",
+          "stringValue": "2026-02-08"
+        },
+        {
+          "id": "CHAMP_Lieutenant de louveterie intervenant",
+          "champDescriptorId": "Lieutenant de louveterie intervenant",
+          "label": "Lieutenant de louveterie intervenant",
+          "__typename": "TextChamp",
+          "stringValue": "Lieutenant Bravo"
+        },
+        {
+          "id": "CHAMP_Circonscription concernée par l'arrêté",
+          "champDescriptorId": "Circonscription concernée par l'arrêté",
+          "label": "Circonscription concernée par l'arrêté",
+          "__typename": "TextChamp",
+          "stringValue": "2e circonscription"
+        },
+        {
+          "id": "CHAMP_Numéro de l'arrêté préfectoral",
+          "champDescriptorId": "Numéro de l'arrêté préfectoral",
+          "label": "Numéro de l'arrêté préfectoral",
+          "__typename": "TextChamp",
+          "stringValue": "DEMO-2025-7"
+        },
+        {
+          "id": "CHAMP_Espèce prélevée",
+          "champDescriptorId": "Espèce prélevée",
+          "label": "Espèce prélevée",
+          "__typename": "TextChamp",
+          "stringValue": "Sangliers"
+        },
+        {
+          "id": "CHAMP_Espèce",
+          "champDescriptorId": "Espèce",
+          "label": "Espèce",
+          "__typename": "TextChamp",
+          "stringValue": "Renard"
+        },
+        {
+          "id": "DEMO_PREL",
+          "champDescriptorId": "DEMO_PREL",
+          "label": "Prélèvements effectués",
+          "__typename": "RepetitionChamp",
+          "stringValue": null,
+          "rows": [
+            {
+              "id": "ROW_0",
+              "champs": [
+                {
+                  "id": "CHAMP_Commune",
+                  "champDescriptorId": "Commune",
+                  "label": "Commune",
+                  "__typename": "TextChamp",
+                  "stringValue": "FREPILLON"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus vus",
+                  "champDescriptorId": "Nombre d'individus vus",
+                  "label": "Nombre d'individus vus",
+                  "__typename": "TextChamp",
+                  "stringValue": "19"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus prélevés",
+                  "champDescriptorId": "Nombre d'individus prélevés",
+                  "label": "Nombre d'individus prélevés",
+                  "__typename": "TextChamp",
+                  "stringValue": "4"
+                },
+                {
+                  "id": "CHAMP_Nombre de balles tirées",
+                  "champDescriptorId": "Nombre de balles tirées",
+                  "label": "Nombre de balles tirées",
+                  "__typename": "TextChamp",
+                  "stringValue": "4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "DEMO_OBS1",
+          "champDescriptorId": "DEMO_OBS1",
+          "label": "Observations",
+          "__typename": "RepetitionChamp",
+          "stringValue": null,
+          "rows": [
+            {
+              "id": "ROW_0",
+              "champs": [
+                {
+                  "id": "CHAMP_Commune",
+                  "champDescriptorId": "Commune",
+                  "label": "Commune",
+                  "__typename": "TextChamp",
+                  "stringValue": "FREPILLON"
+                },
+                {
+                  "id": "CHAMP_Espèce",
+                  "champDescriptorId": "Espèce",
+                  "label": "Espèce",
+                  "__typename": "TextChamp",
+                  "stringValue": "Renard"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus vus",
+                  "champDescriptorId": "Nombre d'individus vus",
+                  "label": "Nombre d'individus vus",
+                  "__typename": "TextChamp",
+                  "stringValue": "6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DEMO_DOSSIER_8",
+      "number": 900008,
+      "state": "accepte",
+      "archived": true,
+      "dateDerniereModification": "2026-10-07T08:00:00Z",
+      "champs": [
+        {
+          "id": "CHAMP_Date de la sortie",
+          "champDescriptorId": "Date de la sortie",
+          "label": "Date de la sortie",
+          "__typename": "TextChamp",
+          "stringValue": "2026-03-09"
+        },
+        {
+          "id": "CHAMP_Lieutenant de louveterie intervenant",
+          "champDescriptorId": "Lieutenant de louveterie intervenant",
+          "label": "Lieutenant de louveterie intervenant",
+          "__typename": "TextChamp",
+          "stringValue": "Lieutenant Charlie"
+        },
+        {
+          "id": "CHAMP_Circonscription concernée par l'arrêté",
+          "champDescriptorId": "Circonscription concernée par l'arrêté",
+          "label": "Circonscription concernée par l'arrêté",
+          "__typename": "TextChamp",
+          "stringValue": "3e circonscription"
+        },
+        {
+          "id": "CHAMP_Numéro de l'arrêté préfectoral",
+          "champDescriptorId": "Numéro de l'arrêté préfectoral",
+          "label": "Numéro de l'arrêté préfectoral",
+          "__typename": "TextChamp",
+          "stringValue": "DEMO-2025-8"
+        },
+        {
+          "id": "CHAMP_Espèce prélevée",
+          "champDescriptorId": "Espèce prélevée",
+          "label": "Espèce prélevée",
+          "__typename": "TextChamp",
+          "stringValue": "Sangliers"
+        },
+        {
+          "id": "CHAMP_Espèce",
+          "champDescriptorId": "Espèce",
+          "label": "Espèce",
+          "__typename": "TextChamp",
+          "stringValue": "Renard"
+        },
+        {
+          "id": "DEMO_PREL",
+          "champDescriptorId": "DEMO_PREL",
+          "label": "Prélèvements effectués",
+          "__typename": "RepetitionChamp",
+          "stringValue": null,
+          "rows": [
+            {
+              "id": "ROW_0",
+              "champs": [
+                {
+                  "id": "CHAMP_Commune",
+                  "champDescriptorId": "Commune",
+                  "label": "Commune",
+                  "__typename": "TextChamp",
+                  "stringValue": "FREMECOURT"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus vus",
+                  "champDescriptorId": "Nombre d'individus vus",
+                  "label": "Nombre d'individus vus",
+                  "__typename": "TextChamp",
+                  "stringValue": "20"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus prélevés",
+                  "champDescriptorId": "Nombre d'individus prélevés",
+                  "label": "Nombre d'individus prélevés",
+                  "__typename": "TextChamp",
+                  "stringValue": "5"
+                },
+                {
+                  "id": "CHAMP_Nombre de balles tirées",
+                  "champDescriptorId": "Nombre de balles tirées",
+                  "label": "Nombre de balles tirées",
+                  "__typename": "TextChamp",
+                  "stringValue": "5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "DEMO_OBS1",
+          "champDescriptorId": "DEMO_OBS1",
+          "label": "Observations",
+          "__typename": "RepetitionChamp",
+          "stringValue": null,
+          "rows": [
+            {
+              "id": "ROW_0",
+              "champs": [
+                {
+                  "id": "CHAMP_Commune",
+                  "champDescriptorId": "Commune",
+                  "label": "Commune",
+                  "__typename": "TextChamp",
+                  "stringValue": "FREMECOURT"
+                },
+                {
+                  "id": "CHAMP_Espèce",
+                  "champDescriptorId": "Espèce",
+                  "label": "Espèce",
+                  "__typename": "TextChamp",
+                  "stringValue": "Renard"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus vus",
+                  "champDescriptorId": "Nombre d'individus vus",
+                  "label": "Nombre d'individus vus",
+                  "__typename": "TextChamp",
+                  "stringValue": "3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DEMO_DOSSIER_9",
+      "number": 900009,
+      "state": "accepte",
+      "archived": false,
+      "dateDerniereModification": "2026-10-07T08:00:00Z",
+      "champs": [
+        {
+          "id": "CHAMP_Date de la sortie",
+          "champDescriptorId": "Date de la sortie",
+          "label": "Date de la sortie",
+          "__typename": "TextChamp",
+          "stringValue": "2026-04-10"
+        },
+        {
+          "id": "CHAMP_Lieutenant de louveterie intervenant",
+          "champDescriptorId": "Lieutenant de louveterie intervenant",
+          "label": "Lieutenant de louveterie intervenant",
+          "__typename": "TextChamp",
+          "stringValue": "Lieutenant Alpha"
+        },
+        {
+          "id": "CHAMP_Circonscription concernée par l'arrêté",
+          "champDescriptorId": "Circonscription concernée par l'arrêté",
+          "label": "Circonscription concernée par l'arrêté",
+          "__typename": "TextChamp",
+          "stringValue": "1e circonscription"
+        },
+        {
+          "id": "CHAMP_Numéro de l'arrêté préfectoral",
+          "champDescriptorId": "Numéro de l'arrêté préfectoral",
+          "label": "Numéro de l'arrêté préfectoral",
+          "__typename": "TextChamp",
+          "stringValue": "DEMO-2025-9"
+        },
+        {
+          "id": "CHAMP_Espèce prélevée",
+          "champDescriptorId": "Espèce prélevée",
+          "label": "Espèce prélevée",
+          "__typename": "TextChamp",
+          "stringValue": "Sangliers"
+        },
+        {
+          "id": "CHAMP_Espèce",
+          "champDescriptorId": "Espèce",
+          "label": "Espèce",
+          "__typename": "TextChamp",
+          "stringValue": "Renard"
+        },
+        {
+          "id": "DEMO_PREL",
+          "champDescriptorId": "DEMO_PREL",
+          "label": "Prélèvements effectués",
+          "__typename": "RepetitionChamp",
+          "stringValue": null,
+          "rows": [
+            {
+              "id": "ROW_0",
+              "champs": [
+                {
+                  "id": "CHAMP_Commune",
+                  "champDescriptorId": "Commune",
+                  "label": "Commune",
+                  "__typename": "TextChamp",
+                  "stringValue": "VEMARS"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus vus",
+                  "champDescriptorId": "Nombre d'individus vus",
+                  "label": "Nombre d'individus vus",
+                  "__typename": "TextChamp",
+                  "stringValue": "21"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus prélevés",
+                  "champDescriptorId": "Nombre d'individus prélevés",
+                  "label": "Nombre d'individus prélevés",
+                  "__typename": "TextChamp",
+                  "stringValue": "6"
+                },
+                {
+                  "id": "CHAMP_Nombre de balles tirées",
+                  "champDescriptorId": "Nombre de balles tirées",
+                  "label": "Nombre de balles tirées",
+                  "__typename": "TextChamp",
+                  "stringValue": "6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "DEMO_OBS1",
+          "champDescriptorId": "DEMO_OBS1",
+          "label": "Observations",
+          "__typename": "RepetitionChamp",
+          "stringValue": null,
+          "rows": [
+            {
+              "id": "ROW_0",
+              "champs": [
+                {
+                  "id": "CHAMP_Commune",
+                  "champDescriptorId": "Commune",
+                  "label": "Commune",
+                  "__typename": "TextChamp",
+                  "stringValue": "VEMARS"
+                },
+                {
+                  "id": "CHAMP_Espèce",
+                  "champDescriptorId": "Espèce",
+                  "label": "Espèce",
+                  "__typename": "TextChamp",
+                  "stringValue": "Renard"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus vus",
+                  "champDescriptorId": "Nombre d'individus vus",
+                  "label": "Nombre d'individus vus",
+                  "__typename": "TextChamp",
+                  "stringValue": "4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DEMO_DOSSIER_10",
+      "number": 900010,
+      "state": "accepte",
+      "archived": true,
+      "dateDerniereModification": "2026-10-07T08:00:00Z",
+      "champs": [
+        {
+          "id": "CHAMP_Date de la sortie",
+          "champDescriptorId": "Date de la sortie",
+          "label": "Date de la sortie",
+          "__typename": "TextChamp",
+          "stringValue": "2026-05-11"
+        },
+        {
+          "id": "CHAMP_Lieutenant de louveterie intervenant",
+          "champDescriptorId": "Lieutenant de louveterie intervenant",
+          "label": "Lieutenant de louveterie intervenant",
+          "__typename": "TextChamp",
+          "stringValue": "Lieutenant Bravo"
+        },
+        {
+          "id": "CHAMP_Circonscription concernée par l'arrêté",
+          "champDescriptorId": "Circonscription concernée par l'arrêté",
+          "label": "Circonscription concernée par l'arrêté",
+          "__typename": "TextChamp",
+          "stringValue": "2e circonscription"
+        },
+        {
+          "id": "CHAMP_Numéro de l'arrêté préfectoral",
+          "champDescriptorId": "Numéro de l'arrêté préfectoral",
+          "label": "Numéro de l'arrêté préfectoral",
+          "__typename": "TextChamp",
+          "stringValue": "DEMO-2025-10"
+        },
+        {
+          "id": "CHAMP_Espèce prélevée",
+          "champDescriptorId": "Espèce prélevée",
+          "label": "Espèce prélevée",
+          "__typename": "TextChamp",
+          "stringValue": "Sangliers"
+        },
+        {
+          "id": "CHAMP_Espèce",
+          "champDescriptorId": "Espèce",
+          "label": "Espèce",
+          "__typename": "TextChamp",
+          "stringValue": "Renard"
+        },
+        {
+          "id": "DEMO_PREL",
+          "champDescriptorId": "DEMO_PREL",
+          "label": "Prélèvements effectués",
+          "__typename": "RepetitionChamp",
+          "stringValue": null,
+          "rows": [
+            {
+              "id": "ROW_0",
+              "champs": [
+                {
+                  "id": "CHAMP_Commune",
+                  "champDescriptorId": "Commune",
+                  "label": "Commune",
+                  "__typename": "TextChamp",
+                  "stringValue": "FREPILLON"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus vus",
+                  "champDescriptorId": "Nombre d'individus vus",
+                  "label": "Nombre d'individus vus",
+                  "__typename": "TextChamp",
+                  "stringValue": "22"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus prélevés",
+                  "champDescriptorId": "Nombre d'individus prélevés",
+                  "label": "Nombre d'individus prélevés",
+                  "__typename": "TextChamp",
+                  "stringValue": "2"
+                },
+                {
+                  "id": "CHAMP_Nombre de balles tirées",
+                  "champDescriptorId": "Nombre de balles tirées",
+                  "label": "Nombre de balles tirées",
+                  "__typename": "TextChamp",
+                  "stringValue": "7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "DEMO_OBS1",
+          "champDescriptorId": "DEMO_OBS1",
+          "label": "Observations",
+          "__typename": "RepetitionChamp",
+          "stringValue": null,
+          "rows": [
+            {
+              "id": "ROW_0",
+              "champs": [
+                {
+                  "id": "CHAMP_Commune",
+                  "champDescriptorId": "Commune",
+                  "label": "Commune",
+                  "__typename": "TextChamp",
+                  "stringValue": "FREPILLON"
+                },
+                {
+                  "id": "CHAMP_Espèce",
+                  "champDescriptorId": "Espèce",
+                  "label": "Espèce",
+                  "__typename": "TextChamp",
+                  "stringValue": "Renard"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus vus",
+                  "champDescriptorId": "Nombre d'individus vus",
+                  "label": "Nombre d'individus vus",
+                  "__typename": "TextChamp",
+                  "stringValue": "5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DEMO_DOSSIER_11",
+      "number": 900011,
+      "state": "accepte",
+      "archived": false,
+      "dateDerniereModification": "2026-10-07T08:00:00Z",
+      "champs": [
+        {
+          "id": "CHAMP_Date de la sortie",
+          "champDescriptorId": "Date de la sortie",
+          "label": "Date de la sortie",
+          "__typename": "TextChamp",
+          "stringValue": "2026-06-12"
+        },
+        {
+          "id": "CHAMP_Lieutenant de louveterie intervenant",
+          "champDescriptorId": "Lieutenant de louveterie intervenant",
+          "label": "Lieutenant de louveterie intervenant",
+          "__typename": "TextChamp",
+          "stringValue": "Lieutenant Charlie"
+        },
+        {
+          "id": "CHAMP_Circonscription concernée par l'arrêté",
+          "champDescriptorId": "Circonscription concernée par l'arrêté",
+          "label": "Circonscription concernée par l'arrêté",
+          "__typename": "TextChamp",
+          "stringValue": "3e circonscription"
+        },
+        {
+          "id": "CHAMP_Numéro de l'arrêté préfectoral",
+          "champDescriptorId": "Numéro de l'arrêté préfectoral",
+          "label": "Numéro de l'arrêté préfectoral",
+          "__typename": "TextChamp",
+          "stringValue": "DEMO-2025-11"
+        },
+        {
+          "id": "CHAMP_Espèce prélevée",
+          "champDescriptorId": "Espèce prélevée",
+          "label": "Espèce prélevée",
+          "__typename": "TextChamp",
+          "stringValue": "Sangliers"
+        },
+        {
+          "id": "CHAMP_Espèce",
+          "champDescriptorId": "Espèce",
+          "label": "Espèce",
+          "__typename": "TextChamp",
+          "stringValue": "Renard"
+        },
+        {
+          "id": "DEMO_PREL",
+          "champDescriptorId": "DEMO_PREL",
+          "label": "Prélèvements effectués",
+          "__typename": "RepetitionChamp",
+          "stringValue": null,
+          "rows": [
+            {
+              "id": "ROW_0",
+              "champs": [
+                {
+                  "id": "CHAMP_Commune",
+                  "champDescriptorId": "Commune",
+                  "label": "Commune",
+                  "__typename": "TextChamp",
+                  "stringValue": "FREMECOURT"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus vus",
+                  "champDescriptorId": "Nombre d'individus vus",
+                  "label": "Nombre d'individus vus",
+                  "__typename": "TextChamp",
+                  "stringValue": "23"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus prélevés",
+                  "champDescriptorId": "Nombre d'individus prélevés",
+                  "label": "Nombre d'individus prélevés",
+                  "__typename": "TextChamp",
+                  "stringValue": "3"
+                },
+                {
+                  "id": "CHAMP_Nombre de balles tirées",
+                  "champDescriptorId": "Nombre de balles tirées",
+                  "label": "Nombre de balles tirées",
+                  "__typename": "TextChamp",
+                  "stringValue": "8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "DEMO_OBS1",
+          "champDescriptorId": "DEMO_OBS1",
+          "label": "Observations",
+          "__typename": "RepetitionChamp",
+          "stringValue": null,
+          "rows": [
+            {
+              "id": "ROW_0",
+              "champs": [
+                {
+                  "id": "CHAMP_Commune",
+                  "champDescriptorId": "Commune",
+                  "label": "Commune",
+                  "__typename": "TextChamp",
+                  "stringValue": "FREMECOURT"
+                },
+                {
+                  "id": "CHAMP_Espèce",
+                  "champDescriptorId": "Espèce",
+                  "label": "Espèce",
+                  "__typename": "TextChamp",
+                  "stringValue": "Renard"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus vus",
+                  "champDescriptorId": "Nombre d'individus vus",
+                  "label": "Nombre d'individus vus",
+                  "__typename": "TextChamp",
+                  "stringValue": "6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "DEMO_OBS2",
+          "champDescriptorId": "DEMO_OBS2",
+          "label": "Observations",
+          "__typename": "RepetitionChamp",
+          "stringValue": null,
+          "rows": [
+            {
+              "id": "ROW_0",
+              "champs": [
+                {
+                  "id": "CHAMP_Commune",
+                  "champDescriptorId": "Commune",
+                  "label": "Commune",
+                  "__typename": "TextChamp",
+                  "stringValue": "COMMUNE A VERIFIER"
+                },
+                {
+                  "id": "CHAMP_Nombre d'individus vus",
+                  "champDescriptorId": "Nombre d'individus vus",
+                  "label": "Nombre d'individus vus",
+                  "__typename": "TextChamp",
+                  "stringValue": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
