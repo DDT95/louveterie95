@@ -1,0 +1,12 @@
+diff --git a/atlas-nav.js b/atlas-nav.js
+index 646c8da..0d7ac55 100644
+--- a/atlas-nav.js
++++ b/atlas-nav.js
+@@ -29,6 +29,7 @@
+     { slug: "val-doise-nuisances", title: "Nuisances" },
+     { slug: "projets-transformations-95", title: "Projets & transformations" },
+     { slug: "inspiration-valdoise-95", title: "Inspiration val-d’oisienne" },
++    { slug: "louveterie95", title: "Louveterie" },
+   ];
+ 
+   var CURRENT_SLUG = (function () {
